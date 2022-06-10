@@ -48,8 +48,9 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 		::\prop::∝
 		::perp::⊥
 		::\--::—
-		::\checkmark::✔️
+		::\check::✔️
 		::\X::❌
+		::\x::×
 		::\paragraph::¶
 		::\ss::§		
 	
