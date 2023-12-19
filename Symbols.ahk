@@ -1,5 +1,5 @@
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
-; #Warn  ; Enable warnings to assist with detecting common errors.
+#Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
@@ -8,7 +8,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
 ; ===Hotstrings===
-
 
 	; Greek letters
 
@@ -46,19 +45,38 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 		::\^v::↕
 		::\+-::±
 		::\prop::∝
-		::perp::⊥
+		::\perp::⊥
 		::\--::—
+		::\em::—
 		::\check::✔️
 		::\X::❌
 		::\x::×
 		::\paragraph::¶
 		::\ss::§		
 	
+	; Fractions
+		
+		::\1/2::½
+		::\1/3::⅓
+		::\2/3::⅔
+		::\1/4::¼
+		::\3/4::¾
+		::\1/5::⅕
+		::\2/5::⅖
+		::\3/5::⅗
+		::\4/5::⅘
+		::\1/7::⅐
+		::\1/8::⅛
+		::\1/9::⅑
+		::\1/10::⅒
+		::...::…
+
 	; Superscripts
 
 		::\dagger::†
 		::\doubledagger::‡
 		::\degree::°
+		::\^o::°
 		::\tm::™
 		::\^-::⁻
 		::\^+::⁺
