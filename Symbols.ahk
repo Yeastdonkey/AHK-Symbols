@@ -47,12 +47,16 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 		::\prop::∝
 		::\perp::⊥
 		::\--::—
+		::\en::–
 		::\em::—
 		::\check::✔️
 		::\X::❌
 		::\x::×
 		::\paragraph::¶
-		::\ss::§		
+		::\ss::§
+		::\<=::≤
+		::\>=::≥
+		::\...::…
 	
 	; Fractions
 		
@@ -69,7 +73,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 		::\1/8::⅛
 		::\1/9::⅑
 		::\1/10::⅒
-		::...::…
 
 	; Superscripts
 
